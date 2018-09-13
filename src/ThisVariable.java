@@ -10,20 +10,16 @@ public class ThisVariable
 	{
 	String person="Drew";
 	System.out.println(person);
-	int length;
-	length=4;
-	int width;
-	width=2;
-	
-	
-	
-	
-	
-
-	
-	
-	
-
+	int length = 4;
+	int width = 2;
+	int rectangleArea = (length * width);
+	System.out.println(rectangleArea);
+	int radius = 4;
+	double pi = 3.14;
+	double circleArea = (radius * radius * pi);
+	System.out.println(circleArea);
+	double circleCircum = (2* pi * radius);
+	System.out.println(circleCircum);
 	}
 
 }
